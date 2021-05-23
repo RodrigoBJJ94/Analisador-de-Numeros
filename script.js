@@ -27,7 +27,7 @@ function adicionar() {
         lista.appendChild(item)
         res.innerHTML = ''
     } else {
-        window.alert('Valor inválido ou já encontrado na lista!')
+        window.alert('Valor inválido ou já encontrado na lista!!!')
     }
     numero.value = ''
     numero.focus()
@@ -35,7 +35,7 @@ function adicionar() {
 
 function finalizar() {
     if (valores.length == 0) {
-        window.alert('Adicione valores antes de finalizar!')
+        window.alert('Adicione valores antes de finalizar!!!')
     } else {
         let total = valores.length
         let maior = valores[0]
