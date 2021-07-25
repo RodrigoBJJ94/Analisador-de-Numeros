@@ -1,7 +1,11 @@
-let numero = document.getElementById('fnum')
-let lista = document.getElementById('flista')
-let res = document.getElementById('res')
-let valores = []
+
+const numero = document.getElementById('fnum')
+
+const lista = document.getElementById('flista')
+
+const res = document.getElementById('res')
+
+const valores = []
 
 function isnumero(n) {
     if (Number(n) > 0 && Number(n) < 101) {
