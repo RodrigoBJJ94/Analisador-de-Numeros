@@ -17,8 +17,14 @@ section{
 select#flista{
     width: 150px;
 }
-footer{
-color: white;
-text-align: center;
-font-style: italic;
+footer p {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    margin-top: 550px;
+}
+@media (max-width: 800px) {
+    footer p {
+        margin-top: 300px;
+    }
 }
