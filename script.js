@@ -1,4 +1,3 @@
-
 const numero = document.getElementById('fnum')
 
 const lista = document.getElementById('flista')
